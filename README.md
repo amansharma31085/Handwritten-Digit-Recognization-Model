@@ -1,6 +1,6 @@
 # ✍️ Handwritten Digit Recognition Model
 
-A web-based application for recognizing handwritten digits (0–9) using a machine learning model. Users can draw a digit on the interface, and the application predicts the number using a trained neural network.
+A web-based application for recognizing handwritten digits (0–9) and letters (A-Z) using a machine learning model. Users can draw a digit on the interface, and the application predicts the number using a trained neural network.
 
 ---
 
@@ -19,7 +19,7 @@ A web-based application for recognizing handwritten digits (0–9) using a machi
 | ---------------- | ------------------------------------------------------------------------ |
 | `app.py`         | Flask web application that serves the drawing UI and handles predictions |
 | `model.py`       | Neural network architecture and model loading scripts                    |
-| `train.py`       | Script to train the model using datasets (e.g., MNIST)                   |
+| `train.py`       | Script to train the model using datasets (e.g., MNIST , EMNIST)                   |
 | `templates/`     | HTML templates for the web interface                                     |
 | `static/`        | Static assets such as CSS, JavaScript, and images                        |
 | `.gitignore`     | Common files to ignore (cache, checkpoints, etc.)                        |
